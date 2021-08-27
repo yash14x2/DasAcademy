@@ -1,0 +1,212 @@
+
+
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3em !important;
+    color: cornsilk !important;
+}
+
+
+
+.custom-nav-item a{
+    color: cornsilk !important;
+}
+
+.custom-nav-item:hover{
+
+    background-color:blue;
+
+    border-radius: 10px;
+
+}
+
+.remove-vid-marg{
+    padding: 0px !important;
+    margin: 0px !important;
+    
+}
+.vid-parent{
+    position: relative;
+
+}
+
+video{
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.vid-content{
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+}
+
+
+.bottom-baner{
+    color: #fff;
+    padding: 8px;
+}
+
+   
+
+.card-img-top{
+
+    width: 100%;
+    height: 11vw;
+    object-fit: cover;
+
+
+}
+
+.custom-con{
+    margin-top: 15%;
+}
+
+.slider-area{
+
+    height: 300px;
+
+    background: #262626;
+    
+    position: relative;
+    margin: 120px ;
+
+}
+
+.carousel-control-prev , 
+.carousel-control-next{
+
+    background: transparent !important;
+}
+
+.img-area{
+    width: 100px;
+    height: 100px;
+    /* opt auto or chane  */
+    margin: auto;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+
+
+.img-area img{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+.carousel-caption h3{
+
+    font-size: 26px;
+    margin-bottom: 5px;
+    
+}
+
+
+.carousel-caption p{
+    font-size: 5px;
+    margin: auto;
+    width: 80%;
+    margin-bottom: -100px;
+
+}
+
+.carousel-indicators
+{
+    top:  250px;
+}
+
+a.social-hover{
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+
+
+a.social-hover:hover{
+
+    padding: 7px 13px;
+    text-decoration: none;
+    background-color: rgb(95, 93, 93);
+    border-radius: 10px;
+    transform: scale(1);
+}
+
+.catogary a {
+    text-decoration: none;
+}
+
+/* .set {
+    display: block;
+} */
+
+
+
+@media screen and (min-width:0px) and (max-width:700px){
+    
+.my-content , .txt-baner{
+    display: none;
+}
+
+.vid-content{
+
+    top: 50%;
+    left: 37%;
+
+}
+.custom-mail{
+
+    margin-top:3% !important;
+    
+}
+
+.custom-adress{
+    display: none;
+}
+
+
+.card-img-top{
+
+    width: 100%;
+    height: 40vw;
+    object-fit: cover;
+
+}
+
+
+
+}
+
+
+.social_links {
+    display: inline-block;
+    margin: 1rem;
+    text-decoration: none;
+    list-style:none;
+    height: 4px !important;
+
+
+}
+/* } .social_links {
+    text-decoration: none;
+    list-style:none;
+}
+
+@media screen and (max-width:560px){
+     .set {
+        display: inline-block !important;
+    }  
+
+
+
+} 
